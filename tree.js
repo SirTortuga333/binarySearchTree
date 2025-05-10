@@ -41,4 +41,50 @@ export class Tree {
       this.prettyPrint(node.left, `${prefix}${isLeft ? "    " : "│   "}`, true);
     }
   };
+
+  insert(value){
+    // inserts given node with value in correct place
+  }
+
+  delete(value){
+    // deletes given node with value from tree without losing branch
+  }
+
+  find(value){
+    // Returns node with given value
+  }
+
+  levelOrder(cb){
+    // traverse the tree in breadth-first level order and call the callback on each node as it traverses
+  }
+
+  inOrder(cb){
+    // Traverse tree and print
+  }
+
+  preOrder(cb){
+    // Traverse tree and print
+
+  }
+
+  postOrder(cb){
+    // Traverse tree and print
+
+  }
+
+  height(){
+    // returns the height of the node containing the given value
+  }
+
+  depth(value){
+    // returns the depth of the node containing the given value
+  }
+
+  isBalance(){
+    // checks if the tree is balanced
+  }
+
+  rebalance(){
+    // rebalances an unbalanced tree
+  }
 }
