@@ -1,17 +1,17 @@
 export class Node {
-  value = null;
+  data = null;
   left = null;
   right = null;
 
   constructor(value) {
-    this.value = value;
+    this.data = value;
   }
 
   setLeft(node) {
     this.left = node;
   }
 
-  setRight() {
+  setRight(node) {
     this.right = node;
   }
 }
